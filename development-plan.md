@@ -2,8 +2,11 @@ Development Plan
 
 1. Project Setup:
 Create a new GitHub repository for your project.
+
 Set up the necessary development environment, including Node.js and PostgreSQL.
+
 Initialize the frontend and backend directories using the folder structure mentioned earlier.
+
 Commit the initial project structure to the repository.
 
 2. Frontend Development:
