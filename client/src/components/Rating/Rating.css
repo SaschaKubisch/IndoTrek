@@ -1,0 +1,12 @@
+.rating {
+    font-size: 24px;
+  }
+  
+  .rating-star {
+    color: #bbb;
+  }
+  
+  .rating-star.active {
+    color: #ff9800;
+  }
+  
