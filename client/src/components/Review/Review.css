@@ -1,0 +1,29 @@
+.review {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .review-author {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .review-rating {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .review-content {
+    font-size: 14px;
+    color: #555;
+  }
+  
