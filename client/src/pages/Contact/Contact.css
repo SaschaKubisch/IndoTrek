@@ -1,0 +1,28 @@
+.contact {
+    padding: 40px;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 16px;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
