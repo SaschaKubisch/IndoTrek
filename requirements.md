@@ -72,6 +72,7 @@ Apply performance optimization techniques such as caching, lazy loading, and CDN
 File structure:
 
 
+.
 ├── client
 │   ├── public
 │   │   ├── index.html
@@ -156,13 +157,13 @@ File structure:
 │   │   ├── bookingController.js
 │   │   ├── tripController.js
 │   ├── models
-│       ├── User.js
-│       ├── Booking.js
-│       ├── Trip.js
+│   │   ├── User.js
+│   │   ├── Booking.js
+│   │   ├── Trip.js
 │   ├── routes
-│       ├── authRoutes.js
-│       ├── bookingRoutes.js
-│       ├── tripRoutes.js
+│   │   ├── authRoutes.js
+│   │   ├── bookingRoutes.js
+│   │   ├── tripRoutes.js
 │   ├── config
 │   │   ├── database.js
 │   │   ├── payment.js
@@ -185,78 +186,3 @@ File structure:
 
 
 
-
-#!/bin/bash
-
-# Create the components directory if it doesn't exist
-mkdir -p components
-
-# Create the Button component
-mkdir -p components/Button
-touch components/Button/Button.js
-touch components/Button/Button.css
-touch components/Button/index.js
-
-# Create the Card component
-mkdir -p components/Card
-touch components/Card/Card.js
-touch components/Card/Card.css
-touch components/Card/index.js
-
-# Create the Dropdown component
-mkdir -p components/Dropdown
-touch components/Dropdown/Dropdown.js
-touch components/Dropdown/Dropdown.css
-touch components/Dropdown/index.js
-
-# Create the Footer component
-mkdir -p components/Footer
-touch components/Footer/Footer.js
-touch components/Footer/Footer.css
-touch components/Footer/index.js
-
-# Create the Header component
-mkdir -p components/Header
-touch components/Header/Header.js
-touch components/Header/Header.css
-touch components/Header/index.js
-
-# Create the HeroSection component
-mkdir -p components/HeroSection
-touch components/HeroSection/HeroSection.js
-touch components/HeroSection/HeroSection.css
-touch components/HeroSection/index.js
-
-# Create the ImageGallery component
-mkdir -p components/ImageGallery
-touch components/ImageGallery/ImageGallery.js
-touch components/ImageGallery/ImageGallery.css
-touch components/ImageGallery/index.js
-
-# Create the LoginForm component
-mkdir -p components/LoginForm
-touch components/LoginForm/LoginForm.js
-touch components/LoginForm/LoginForm.css
-touch components/LoginForm/index.js
-
-# Create the Navigation component
-mkdir -p components/Navigation
-touch components/Navigation/Navigation.js
-touch components/Navigation/Navigation.css
-touch components/Navigation/index.js
-
-# Create the Rating component
-mkdir -p components/Rating
-touch components/Rating/Rating.js
-touch components/Rating/Rating.css
-touch components/Rating/index.js
-
-# Create the Review component
-mkdir -p components/Review
-touch components/Review/Review.js
-touch components/Review/Review.css
-touch components/Review/index.js
-
-# ...
-
-echo "Component folder and file structure created successfully!"
