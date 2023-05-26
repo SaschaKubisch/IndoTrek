@@ -78,82 +78,91 @@ File structure:
 │   │   └── ...
 │   ├── src
 │   │   ├── components
-            ├── Button
-            │   ├── Button.js
-            │   ├── Button.css
-            │   └── index.js
-            ├── Card
-            │   ├── Card.js
-            │   ├── Card.css
-            │   └── index.js
-            ├── Dropdown
-            │   ├── Dropdown.js
-            │   ├── Dropdown.css
-            │   └── index.js
-            ├── Footer
-            │   ├── Footer.js
-            │   ├── Footer.css
-            │   └── index.js
-            ├── Header
-            │   ├── Header.js
-            │   ├── Header.css
-            │   └── index.js
-            ├── HeroSection
-            │   ├── HeroSection.js
-            │   ├── HeroSection.css
-            │   └── index.js
-            ├── ImageGallery
-            │   ├── ImageGallery.js
-            │   ├── ImageGallery.css
-            │   └── index.js
-            ├── LoginForm
-            │   ├── LoginForm.js
-            │   ├── LoginForm.css
-            │   └── index.js
-            ├── Navigation
-            │   ├── Navigation.js
-            │   ├── Navigation.css
-            │   └── index.js
-            ├── Rating
-            │   ├── Rating.js
-            │   ├── Rating.css
-            │   └── index.js
-            ├── Review
-            │   ├── Review.js
-            │   ├── Review.css
-            │   └── index.js
+│   │   │   ├── Button
+│   │   │   │   ├── Button.js
+│   │   │   │   ├── Button.css
+│   │   │   │   └── index.js
+│   │   │   ├── Card
+│   │   │   │   ├── Card.js
+│   │   │   │   ├── Card.css
+│   │   │   │   └── index.js
+│   │   │   ├── Dropdown
+│   │   │   │   ├── Dropdown.js
+│   │   │   │   ├── Dropdown.css
+│   │   │   │   └── index.js
+│   │   │   ├── Footer
+│   │   │   │   ├── Footer.js
+│   │   │   │   ├── Footer.css
+│   │   │   │   └── index.js
+│   │   │   ├── Header
+│   │   │   │   ├── Header.js
+│   │   │   │   ├── Header.css
+│   │   │   │   └── index.js
+│   │   │   ├── HeroSection
+│   │   │   │   ├── HeroSection.js
+│   │   │   │   ├── HeroSection.css
+│   │   │   │   └── index.js
+│   │   │   ├── ImageGallery
+│   │   │   │   ├── ImageGallery.js
+│   │   │   │   ├── ImageGallery.css
+│   │   │   │   └── index.js
+│   │   │   ├── LoginForm
+│   │   │   │   ├── LoginForm.js
+│   │   │   │   ├── LoginForm.css
+│   │   │   │   └── index.js
+│   │   │   ├── Navigation
+│   │   │   │   ├── Navigation.js
+│   │   │   │   ├── Navigation.css
+│   │   │   │   └── index.js
+│   │   │   ├── Rating
+│   │   │   │   ├── Rating.js
+│   │   │   │   ├── Rating.css
+│   │   │   │   └── index.js
+│   │   │   ├── Review
+│   │   │   │   ├── Review.js
+│   │   │   │   ├── Review.css
+│   │   │   │   └── index.js
 │   │   ├── pages
-            ├── Home
-            │   ├── Home.js
-            │   ├── Home.css
-            │   └── index.js
-            ├── Explore
-            │   ├── Explore.js
-            │   ├── Explore.css
-            │   └── index.js
-            ├── About
-            │   ├── About.js
-            │   ├── About.css
-            │   └── index.js
-            ├── Contact
-            │   ├── Contact.js
-            │   ├── Contact.css
-            │   └── index.js
+│   │   │   ├── Home
+│   │   │   │   ├── Home.js
+│   │   │   │   ├── Home.css
+│   │   │   │   └── index.js
+│   │   │   ├── Explore
+│   │   │   │   ├── Explore.js
+│   │   │   │   ├── Explore.css
+│   │   │   │   └── index.js
+│   │   │   ├── About
+│   │   │   │   ├── About.js
+│   │   │   │   ├── About.css
+│   │   │   │   └── index.js
+│   │   │   ├── Contact
+│   │   │   │   ├── Contact.js
+│   │   │   │   ├── Contact.css
+│   │   │   │   └── index.js
 │   │   ├── services
-│   │   │   └── ...
+│   │   │   ├── auth.js
+│   │   │   ├── booking.js
+│   │   │   ├── trip.js
 │   │   ├── styles
-│   │   │   └── ...
+│   │   │   ├── global.css
+│   │   │   ├── variables.css
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   └── ...
 │   └── ...
 ├── server
 │   ├── controllers
-│   │   └── ...
+│   │   ├── authController.js
+│   │   ├── bookingController.js
+│   │   ├── tripController.js
 │   ├── models
-│   │   └── ...
+│       ├── User.js
+│       ├── Booking.js
+│       ├── Trip.js
 │   ├── routes
-│   │   └── ...
+│       ├── authRoutes.js
+│       ├── bookingRoutes.js
+│       ├── tripRoutes.js
 │   ├── config
 │   │   ├── database.js
 │   │   ├── payment.js
@@ -165,12 +174,15 @@ File structure:
 │   ├── migrations
 │   │   └── ...
 │   ├── seeds
-│   │   └── ...
+│   │   ├── seed_users.js
+│   │   ├── seed_bookings.js
+│   │   ├── seed_trips.js
 │   ├── db.js
 │   └── ...
 ├── .gitignore
 ├── README.md
 └── ...
+
 
 
 
