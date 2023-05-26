@@ -123,7 +123,22 @@ File structure:
             │   ├── Review.css
             │   └── index.js
 │   │   ├── pages
-│   │   │   └── ...
+            ├── Home
+            │   ├── Home.js
+            │   ├── Home.css
+            │   └── index.js
+            ├── Explore
+            │   ├── Explore.js
+            │   ├── Explore.css
+            │   └── index.js
+            ├── About
+            │   ├── About.js
+            │   ├── About.css
+            │   └── index.js
+            ├── Contact
+            │   ├── Contact.js
+            │   ├── Contact.css
+            │   └── index.js
 │   │   ├── services
 │   │   │   └── ...
 │   │   ├── styles
