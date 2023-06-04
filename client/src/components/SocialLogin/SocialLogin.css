@@ -1,0 +1,34 @@
+.social-login-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .social-login-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-login-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .google-login-button {
+    background-color: #db4437;
+  }
+  
+  .facebook-login-button {
+    background-color: #4267b2;
+  }
+  
+  .social-login-buttons button i {
+    margin-right: 10px;
+  }
+  
