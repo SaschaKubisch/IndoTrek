@@ -1,0 +1,26 @@
+.partner-contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .booking-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .message-form-container {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
