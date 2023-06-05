@@ -1,5 +1,3 @@
-// User.js
-
 const { Schema, model } = require('mongoose');
 
 const userSchema = new Schema(
@@ -21,6 +19,10 @@ const userSchema = new Schema(
       type: String,
       enum: ['user', 'admin'],
       default: 'user',
+    },
+    profile: {
+      type: Schema.Types.ObjectId,
+      ref: 'Profile',
     },
     createdAt: {
       type: Date,

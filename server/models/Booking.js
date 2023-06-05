@@ -1,5 +1,3 @@
-// Booking.js
-
 const { Schema, model } = require('mongoose');
 
 const bookingSchema = new Schema(
