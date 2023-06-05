@@ -1,5 +1,3 @@
-// payment.js
-
 const stripe = require('stripe')('your-stripe-secret-key');
 const paypal = require('paypal-rest-sdk');
 

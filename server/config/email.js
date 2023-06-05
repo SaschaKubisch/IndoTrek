@@ -1,5 +1,3 @@
-// email.js
-
 const sgMail = require('@sendgrid/mail');
 
 sgMail.setApiKey('your-sendgrid-api-key');
