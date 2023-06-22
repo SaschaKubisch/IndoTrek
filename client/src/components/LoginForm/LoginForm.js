@@ -1,13 +1,23 @@
 import React, { useState } from 'react';
+import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 import './LoginForm.css';
 
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const history = useHistory();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle login logic
+    
+    try {
+      const response = await axios.post('/auth/login', { email, password });
+      localStorage.setItem('token', response.data.token);
+      history.push('/dashboard');
+    } catch (error) {
+      // Handle error
+    }
   };
 
   return (

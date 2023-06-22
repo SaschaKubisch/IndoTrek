@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { getUserBookings } from '../../services/booking';
+import { useHistory } from 'react-router-dom';
 
 import './UserDashboard.css';
 
 const UserDashboard = () => {
   const [bookings, setBookings] = useState([]);
+  const history = useHistory();
 
   useEffect(() => {
-    fetchUserBookings();
-  }, []);
+    const token = localStorage.getItem('token');
+    if (!token) {
+      history.push('/login');
+    } else {
+      fetchUserBookings();
+    }
+  }, [history]);
 
   const fetchUserBookings = async () => {
     try {
