@@ -1,6 +1,6 @@
 # IndoTrek
 
-IndoTrek is a web application for booking and customizing adventure trips in Indonesia.
+IndoTrek is a web application for booking and customizing adventure trips in Indonesia (or anywhere else)
 
 ## Prerequisites
 
